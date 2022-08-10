@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  font-size: 1.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(212, 212, 212);
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+pre {
+  margin: 0;
+  font-family: monospace;
+  font-size: 1.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.prompt-line {
+  margin-left: 10px;
+}
+
+.console-output {
+  text-align: left;
+  overflow:auto;
+  width: 100%;
+}
+
+.input-prompt {
+  margin-left: 10px;
+  width: 80%;
+  display: flex;
+}
+
+.console {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: flex-start;
+  width: 100%;
+  background-color: rgb(19, 19, 19);
+}
+
+input {
+  color: yellow;
+  background-color: rgb(19, 19, 19);
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1em;
+}
+
+.terminal-container {
+  margin: 30px 10%;
+  padding: 0;
+  background-color: rgb(19, 19, 19);
+  min-width: 300px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.terminal-header {
+  margin: 0;
+  background-color: rgb(64, 62, 73);
+  height: 35px;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+}
+
+
+.icon {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(196, 111, 0);
+  display: flex;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.terminal-title {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(146, 146, 146);
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.terminal-buttons {
+  margin-left: auto;
+  flex-direction: row;
+  display: flex;
+}
+
+.button-obj {
+  background-color:  rgb(114, 111, 128);
+  width: 35px;
+  display: flex;
+  align-items: center;
+  border: rgb(73, 73, 73) 1px solid;
+}
+
+.button {
+  font-size: 25px;
+  font-weight: 1000;
+  display: flex;
+  margin: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
